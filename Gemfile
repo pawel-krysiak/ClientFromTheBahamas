@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
+
+ruby '2.3.0'
 gem 'webmock'
 gem 'rest-client'
 gem 'pry'
@@ -40,7 +42,7 @@ group :development, :test do
   gem 'byebug'
 
   # Access an IRB console on exception pages or by using <%= console %> in views
-  gem 'web-console', '~> 2.0'
+  gem 'web-console'
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
